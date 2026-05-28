@@ -1,22 +1,8 @@
-# Code will  be  stage here .
- =============================================================================
-# Pharmacy Management System
-# Group 6
-# =============================================================================
-
 # =============================================================================
 # Product class, import and constants
 # author: @tuinamarina28-png
 # =============================================================================
 
-
-import csv
-import os
-from datetime import date, datetime
-
-# --- Constants ---
-STOCK_FILE = "stock.csv"
-PARA_CATEGORIES = ("hygiene", "cosmetic", "nutrition", "medical equipment")
 LOW_STOCK_THRESHOLD = 5
 
 
@@ -57,4 +43,3 @@ class Product:
 
     def to_csv(self) -> list:
         return ["Product", self.__name, self.__price, self.__quantity, "", "", ""]
-
