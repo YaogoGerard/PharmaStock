@@ -25,5 +25,3 @@ class Medication(Product):
             return expiration < date.today()
             except ValueError:
             return False
-
-    git add .
