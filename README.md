@@ -73,12 +73,12 @@ YOUR_REPO/
 
 | Name           | GitHub                                      |
 |----------------|---------------------------------------------|
-| YAOGO Gérard W | [@YaogoGerard](https://github.com/YaogoGerard)    |
-| Traoré cheick | [@CAR-id13](https://github.com/CAR-id13)    |
-| YAMEOGO Odette | [@odetteyameogo2002-sketch](https://github.com/odetteyameogo2002-sketch)    |
-| TUINA Marina | [@tuinamarina28-png](https://github.com/tuinamarina28-png)    |
-| Yams | [@Yams-tech](https://github.com/Yams-tech)    |
-| YARO Leana | [@yaroleana7-maker](https://github.com/yaroleana7-maker)    |
+| Gérard W YAOGO | [@YaogoGerard](https://github.com/YaogoGerard)    |
+| Cheick Traoré | [@CAR-id13](https://github.com/CAR-id13)    |
+| Odette YAMEOGO | [@odetteyameogo2002-sketch](https://github.com/odetteyameogo2002-sketch)    |
+| Marina TUINA | [@tuinamarina28-png](https://github.com/tuinamarina28-png)    |
+| Roméo YAMEOGO | [@Yams-tech](https://github.com/Yams-tech)    |
+| Leana YARO | [@yaroleana7-maker](https://github.com/yaroleana7-maker)    |
 
 ---
 

@@ -1,0 +1,14 @@
+type,name,price,quantity,prescription,expiration,category
+Medication,Paracetamol 500mg,1500.0,45,True,15/08/2026,
+Medication,Amoxicillin 500mg,3500.0,28,True,10/07/2026,
+Medication,Ibuprofen 400mg,2000.0,62,False,22/12/2026,
+Medication,Artemether-Lumefantrine,4500.0,18,True,05/06/2026,
+Medication,Vitamin C 1000mg,1200.0,85,False,30/11/2027,
+Parapharmacy,Hand Sanitizer 500ml,2500.0,120,,,hygiene
+Parapharmacy,Face Mask Surgical (50pcs),8000.0,35,,,medical equipment
+Parapharmacy,Moisturizing Cream 200ml,4500.0,42,,,cosmetic
+Parapharmacy,Multivitamin Syrup 200ml,3800.0,55,,,nutrition
+Parapharmacy,Disinfectant Spray 750ml,3200.0,67,,,hygiene
+Product,Bandage Kit,6500.0,15,,,
+Product,Syringes 5ml (100pcs),12500.0,8,,,
+Medication,COVID-19 Test Kit,7500.0,22,False,01/09/2026,
