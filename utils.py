@@ -5,7 +5,7 @@
 
 import csv
 import os
-from product import Product
+from products import Product
 from medication import Medication
 from parapharmacy import ParapharmacyProduct
 

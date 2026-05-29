@@ -3,7 +3,7 @@
 # author: @odetteyameogo2002-sketch
 # =============================================================================
 
-from product import Product
+from products import Product
 
 
 PARA_CATEGORIES = ("hygiene", "cosmetic", "nutrition", "medical equipment")

@@ -4,7 +4,7 @@
 # =============================================================================
 
 from utils import display_separator, input_float, input_integer
-from product import Product
+from products import Product
 from medication import Medication
 from parapharmacy import ParapharmacyProduct, PARA_CATEGORIES
 

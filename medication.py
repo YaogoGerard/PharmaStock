@@ -4,7 +4,7 @@
 # =============================================================================
 
 from datetime import date, datetime
-from product import Product
+from products import Product
 
 
 class Medication(Product):

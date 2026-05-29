@@ -18,7 +18,7 @@ git clone https://github.com/YaogoGerard/PharmaStock.git
 cd PharmaStock
 
 # 3. Run the program
-python pharmacy.py
+python main.py
 ```
 
 ---
@@ -46,7 +46,12 @@ python pharmacy.py
 
 ```
 YOUR_REPO/
-├── pharmacie.py     # Main source code (classes + program)
+├── main.py          # Entry point (main menu + program loop)
+├── product.py       # Product base class
+├── medication.py    # Medication class (prescription + expiry)
+├── parapharmacy.py  # ParapharmacyProduct class (category)
+├── utils.py         # Utility functions (CSV I/O, input helpers)
+├── menu.py          # Menu functions (CRUD, search, alerts)
 ├── stock.csv        # Stock backup file (auto-generated)
 └── README.md        # This file
 ```
@@ -55,17 +60,17 @@ YOUR_REPO/
 
 ##  OOP Structure
 
-| Class                    | Description                                      | Inherits from | Key Methods                     |
-|--------------------------|--------------------------------------------------|---------------|---------------------------------|
-| `Produit`                | Base generic product                             | —             | `afficher()`, `est_stock_faible()`, `vers_csv()` |
-| `Medicament`             | Medication with prescription and expiration      | `Produit`     | `afficher()`, `est_expire()`    |
-| `ProduitParapharmacie`   | Hygiene / cosmetic / nutrition product           | `Produit`     | `afficher()`, `get_categorie()` |
+| Class                    | File              | Description                                      | Inherits from | Key Methods                     |
+|--------------------------|-------------------|--------------------------------------------------|---------------|---------------------------------|
+| `Product`                | `product.py`      | Base generic product                             | —             | `display()`, `is_low_stock()`, `to_csv()` |
+| `Medication`             | `medication.py`   | Medication with prescription and expiration      | `Product`     | `display()`, `is_expired()`     |
+| `ParapharmacyProduct`    | `parapharmacy.py` | Hygiene / cosmetic / nutrition product           | `Product`     | `display()`, `get_category()`   |
 
 **The 4 OOP Principles:**
-- **Encapsulation**: Private attributes (`__nom`, `__prix`, etc.) accessible via getters/setters
-- **Abstraction**: The `afficher()` method hides internal complexity
-- **Inheritance**: `Medicament` and `ProduitParapharmacie` extend `Produit`
-- **Polymorphism**: `afficher()` behaves differently depending on the class
+- **Encapsulation**: Private attributes (`__name`, `__price`, etc.) accessible via getters/setters
+- **Abstraction**: The `display()` method hides internal complexity
+- **Inheritance**: `Medication` and `ParapharmacyProduct` extend `Product`
+- **Polymorphism**: `display()` behaves differently depending on the class
 
 ---
 
